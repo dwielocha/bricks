@@ -1,0 +1,29 @@
+{
+    "name": "dwielocha/bricks",
+    "type": "library",
+    "description": "Set of reusable code bricks.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dwielocha",
+            "email": "damian@wielocha.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bricks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "nunomaduro/phpinsights": "^2.0"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
